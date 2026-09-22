@@ -1,0 +1,5 @@
+Total Sales = SUM(Sales[Sales])
+Total Profit = SUM(Sales[Profit])
+Total Orders = DISTINCTCOUNT(Sales[Order_ID])
+Total Quantity = SUM(Sales[Quantity])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
